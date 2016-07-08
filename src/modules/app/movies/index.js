@@ -9,7 +9,6 @@ module.exports =
     $stateProvider
     .state('movies', {
       url: '/',
-      params: {scrollTo: null},
       templateUrl: 'app/movies/layout.html',
       controller: 'movieController'
     });
