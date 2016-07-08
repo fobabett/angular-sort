@@ -34,7 +34,8 @@
   "browser": {
     "jquery": "./bower_components/jquery/dist/jquery.js",
     "angular": "./bower_components/angular/angular.js",
-    "angular-ui-router": "./bower_components/angular-ui-router/release/angular-ui-router.min.js"
+    "angular-ui-router": "./bower_components/angular-ui-router/release/angular-ui-router.min.js",
+    "angular-ui-sortable": "./bower_components/angular-ui-sortable/sortable.min.js"
   },
   "browserify-shim": {},
   "dependencies": {
