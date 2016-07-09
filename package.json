@@ -32,7 +32,8 @@
     "yargs": "^1.2.2"
   },
   "browser": {
-    "jquery": "./bower_components/jquery/dist/jquery.js",
+    "jquery": "./bower_components/jquery/dist/jquery.min.js",
+    "jquery-ui": "./bower_components/jquery-ui/jquery-ui.min.js",
     "angular": "./bower_components/angular/angular.js",
     "angular-ui-router": "./bower_components/angular-ui-router/release/angular-ui-router.min.js",
     "angular-ui-sortable": "./bower_components/angular-ui-sortable/sortable.min.js"

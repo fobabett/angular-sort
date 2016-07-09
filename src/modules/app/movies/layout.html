@@ -1,7 +1,7 @@
 <h1>Movies</h1>
 
 <div>
-  <ul class='movie-list' ng-repeat='movie in movies'>
-    <li class='movie-item'>{{movie.title}}</li>
+  <ul class='movie-list' ui-sortable='sortableOptions' ng-model='movies'>
+    <li class='movie-item' ng-repeat='movie in movies'>{{movie.title}}</li>
   </ul>
 </div>
