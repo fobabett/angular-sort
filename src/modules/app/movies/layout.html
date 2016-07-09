@@ -2,6 +2,6 @@
 
 <div>
   <ul class='movie-list' ui-sortable='sortableOptions' ng-model='movies'>
-    <li class='movie-item' ng-repeat='movie in movies'>{{movie.title}}</li>
+    <li class='movie-item' ng-repeat='movie in movies'>{{movie.title}} {{movie.pos}} {{$index}}</li>
   </ul>
 </div>
