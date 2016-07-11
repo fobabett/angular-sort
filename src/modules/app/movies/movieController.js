@@ -4,11 +4,11 @@ module.exports = /*@ngInject*/
   function movieController($scope) {
 
     $scope.movies = [
-      {title: 'Star Wars', pos: 0},
-      {title: 'Lord of the Rings', pos: 1},
-      {title: 'Avengers', pos:2},
-      {title: 'Kill Bill', pos:3},
-      {title: 'Avatar', pos:4}
+      {title: 'Star Wars', pos: 1},
+      {title: 'Lord of the Rings', pos: 2},
+      {title: 'Avengers', pos:3},
+      {title: 'Kill Bill', pos:4},
+      {title: 'Avatar', pos:5}
     ];
 
     $scope.movies.sort(function(a, b) {
@@ -18,7 +18,7 @@ module.exports = /*@ngInject*/
     $scope.sortingLog = [];
 
     $scope.sortableOptions = {
-      'ui-floating': true,
+      // 'ui-floating': true,
       stop: function(e, ui) {
         for (var index in $scope.movies) {
           $scope.movies[index].pos = index;
